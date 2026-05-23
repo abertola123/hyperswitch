@@ -1,4 +1,4 @@
-FROM node:lts
+FROM node:24.16.0-bookworm
 
 RUN npm install concurrently -g
 
