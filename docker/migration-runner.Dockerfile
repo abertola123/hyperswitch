@@ -1,7 +1,7 @@
 # Migration Runner Dockerfile for Hyperswitch
 # This image contains migration files and diesel CLI for offline migration execution
 
-FROM debian:trixie-slim
+FROM debian:13.6-slim
 
 # Install necessary packages
 RUN apt-get update && apt-get install -y \
