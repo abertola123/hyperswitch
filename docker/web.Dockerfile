@@ -1,4 +1,4 @@
-FROM node:lts
+FROM node:26.13.0-trixie
 
 RUN npm install concurrently -g
 
